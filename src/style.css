@@ -1,89 +1,53 @@
-.cont{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(237, 233, 233);
-    height: 50px;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-.leftbar span{
-    margin-left: 50px;
-}
-.dilevry{
-    font-size: 12px;
-    font-weight: 500;
-}
-select{
-    border: none;
-    border-left: 1px solid rgb(176, 171, 171);
-    margin-left: 20px;
-    font-weight: 600;
-    font-size: 14px;
-    background-color: rgba(0,0,0,0.0);
-}
-.rightbar{
-    display: flex;
-}
-.rightbar div{
-    margin-right: 45px;
-}
-.faq span{
-    margin-right: 15px;
-    font-weight: 600;
-}
-.logo span{
-    color: gray;
-    margin-right: 15px;
 
-}
-header{
-    display: flex;
-    justify-content: space-around;
-    height: 80px;
-    align-items: center;
-}
-.shoplogo{
-    font-size: 27px;
-    font-weight: bold;
-}
-.menu span{
-    margin-left: 20px;
-    font-weight:500;
-
+.heading-xxs{
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: .4px;
 }
 .menulogo span{
-    margin-left: 15px;
+    margin-right: 15px;   
+}
+.shoplogo{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 4rem;
 }
 main{
+    display:flex;
+    justify-content: center;
     background-color: rgb(31, 30, 30);
-    padding: 10px;
-    text-align:center;
+    padding: 1rem;
     color: white;
-    margin-left: -10px;
-    margin-right: -10px;
     font-weight:500;
    }
+   marquee {
+    width: 26rem;
+   }
    section{
-    display: grid;
-    grid-template-columns: 4fr 4fr 4fr;
-    height: 450px;
-    margin-top: 15px;
-    margin-left: -10px;
-    margin-right: -10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    background-color: rgb(222, 221, 221);
    }
    .women{
     background-image: url(../public/img/faishion1.jpg);
     background-size: cover;
+    width:26rem;
+    height: 26rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    margin-bottom: 1.5rem;
    }
    .men{
     background-image: url(../public/img/faishion2.jpg);
     background-size: cover;
+    width:26rem;
+    height: 26rem;
     display: flex;
+    margin-bottom: 1.5rem;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
@@ -92,44 +56,47 @@ main{
    .kids{
     background-image: url(../public/img/faishon3.jpg);
     background-size: cover;
+    width:26rem;
+    height: 26rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    margin-bottom: 1.5rem;
 
    }
-   button{
-    width:200px;
+   .button{
+    width:13rem;
     background-color: white;
     height: 50px;
     border: none;
     font-weight: 500;
    }
    .brand-tittle{
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: bold;
     color:white;
     text-shadow: 2px 2px 2px rgb(75, 73, 73);
    }
    .section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 30px;
+    margin-top: 2rem;
     border-bottom: 1px solid gray;
    }
    .sec-logo{
     color:red;
-    font-size: 20px;
-    margin-left: -50px;
+    font-size: 1.5rem;
+    
    }
    .sec-tittle{
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 700;
-    margin-left: 27px;
    }
    .section p{
     color: gray;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 450;
     margin-top: 8px;
    }
@@ -137,32 +104,34 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 20rem;
    }
    .sec2{
-    width: 600px;
+    width: 40rem;
     text-align: center;
+    margin-left: -2rem;
    }
    .sec2-tittle{
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 500;
+    margin-left: 1.5rem;
    }
    .sec2-para{    
     color:gray;
-    font-size: 13px;
+    font-size: 1rem;
     font-weight: bold;
    }
    .sec2 p{
     color: rgb(99, 95, 95);
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 450;
-    margin-top: 15px;
+    margin-top: 1rem;
    }
    .faishion4{
     background-image: url(../public/img/faishion4.jpg);
     background-size: cover;
-    width: 400px;
-    height: 400px;
+    width: 26rem;
+    height: 26rem;
     transform: translateX(0px);
     transition:500ms;
     display: flex;
@@ -173,8 +142,8 @@ main{
 .faishion5{
     background-image: url(../public/img/faishion5.jpg);
     background-size: cover;
-    width: 700px;
-    height: 400px;
+    width: 46rem;
+    height: 26rem;
     transform: translateX(0px);
     transition:500ms;
     display: flex;
@@ -184,8 +153,8 @@ main{
 .faishion7{
     background-image: url(../public/img/faishion7.jpg);
     background-size: cover;
-    width: 700px;
-    height: 400px;
+    width: 46rem;
+    height: 26rem;
     transform:translateX(0px);
     transition: 500ms;
     display: flex;
@@ -195,8 +164,8 @@ main{
 .faishion8{
     background-image: url(../public/img/faishion8.jpg);
     background-size: cover;
-    width: 400px;
-    height: 400px;
+    width: 26rem;
+    height:26rem;
     transform:translateX(0px);
     transition:500ms;
     display: flex;
@@ -205,54 +174,36 @@ main{
 }
 .section1-sub,.section1-sub{
     display: flex;
-    gap:30px;
-    margin-bottom: 30px;
+    justify-content: center;
+    gap:2rem;
+    margin-bottom: 2rem;
 }
 .section1-main{
     display: flex;
     justify-content: center;
-    text-align: center;
 }
-.faishion4:hover{
-    transform: translateX(-10px);
-    transition:500ms
-}
-.faishion5:hover{
-    transform: translateX(-10px);
-    transition:500ms
-}
-.faishion7:hover{
-    transform: translateX(-10px);
-    transition:500ms
-}
-.faishion8:hover{
+.faishion4:hover,.faishion5:hover,.faishion7:hover,.faishion8:hover{
     transform: translateX(-10px);
     transition:500ms
 }
 .div{
     overflow:hidden;
-    width: 400px;
-    height: 400px;
+    width: 26rem;
+    height: 26rem;
 }
-.div:hover .faishion4{
-    width: 420px;
+.div:hover .faishion4,.div:hover .faishion8{
+    width: 28rem;
 }
-.div1:hover .faishion5{
-    width: 720px;
+.div1:hover .faishion5,.div1:hover .faishion7{
+    width: 48rem
 }
-.div1:hover .faishion7{
-    width: 720px;
-}
-.div:hover .faishion8{
-    width: 420px;
-}
+
 .div1{
-    
     overflow:hidden;
-    width: 700px;
-    height: 400px;
+    width: 46rem;
+    height: 26rem;
 }
-a{
+.section1-sub a{
    color: white;
    text-decoration: none;
    font-weight: bold;
@@ -272,15 +223,17 @@ a:hover{
     justify-content: center;
     align-items:center;
     text-align: center;
-    height:200px
+    height:14rem
 }
 .month-seller span{
-    margin-right: 30px;
+   margin-left: 2rem;
 }
 .grid{
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr;
-    gap:40px;
+    display:flex;
+    flex-wrap: wrap;
+    gap:2.5rem;
+    justify-content: center;
+    text-align: center;
 }
 .shop-varity{
     display: flex;
@@ -289,8 +242,8 @@ a:hover{
 }
 .item-data div{
     color:gray;
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 1rem;
+    margin-top: 1.5rem;
 }
 .item-data span{
     color:gray;
@@ -299,8 +252,8 @@ a:hover{
 .more-tittle{
     font-weight: 500;
     text-align: center;
-    margin-top: 70px;
-    margin-bottom: 100px;
+    margin-top: 4.5rem;
+    margin-bottom: 7rem;
     text-decoration: underline;
     color: black;
 }
@@ -311,81 +264,92 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 16.5rem;
     text-align: center;
 }
 .latest-span{
     color:gray;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
 }
 .box-1{
     border: 1px solid gray;
-    width: 320px;
-    height: 340px;
-    padding: 20px;
+    width: 20rem;
+    height: auto;
+    padding: 1.5rem;
     text-align: justify;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
     color: gray;
 }
 .box-1 img{
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
 .box{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap:30px;
+    gap:2rem;
 }
 .brand-name{
-    height:600px;
+    height:auto;
     background-color: rgb(212, 209, 209);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 100px;
-    margin-left: -15px;
-    margin-right: -12px;
+    margin-top: 6rem;
+    padding-top: 2rem;
+   
 }
 .brand-img{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    gap:15px;
-    margin-top: 50px;
+    gap:1rem;
+    margin-top: 3rem;
 }
 .brand-img img{
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
 }
 footer{
-    height:600px;
+    height:auto;
+    padding: 2rem;
     background-color: rgb(42, 40, 40);
+   
+}
+.search-box{
+    display: flex;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -15px;
-    margin-right: -12px;
 }
 input{
     background-color: rgb(79, 76, 76);
-    padding: 17px;
+    padding: 1rem;
     color:white;
     border:none;
-    margin-right: 30px;
+    margin-right: 2rem;
+}
+.search-box .email{
+    width: 23rem;
 }
 .submit{
     color:white;
     border:none;
     font-weight: 500;
-    width: 150px;
-    padding:17px;
+    width: 10rem;
+    padding:1rem;
 }
 .adress{
-    display: flex;
-    gap:100px;
-    margin-top:100px;
+    
+    margin-top:6rem;
+}
+input:focus{
+    outline: none;
 }
 ::placeholder{
     color: gray;
@@ -395,6 +359,63 @@ input{
     color: gray;
     font-weight: 500;
 }
+.data{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+}
 h5{
     color:white;
+}
+@media screen  and (max-width:768px){
+
+    .section{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+       }
+       
+
+
+    .section1-sub,.section1-sub{
+        display:flex;
+        flex-wrap: wrap;
+        gap:inherit;
+        
+       
+    }
+    .section1-main{
+        display:inherit;
+    }
+    .faishion4,.faishion5,.faishion7,.faishion8{
+        width:100%;
+        margin-top: 2rem;
+    
+    }   
+    .faishion4:hover,.faishion5:hover,.faishion7:hover,.faishion8:hover{
+        transform: translateX(-10px);
+        transition:500ms
+    }
+    .div,.div1{
+        overflow:hidden;
+        width: 26rem;
+        height: 26rem;
+    }
+    .div:hover .faishion4,.div:hover .faishion8{
+        width: 28rem;
+    }
+    .div1:hover .faishion5,.div1:hover .faishion7{
+        width: 28rem;
+    }
+    
+    .search-box .email{
+        width: inherit;
+    }
+    .data{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap:1rem;
+        margin-top: 3rem;
+    }
 }
