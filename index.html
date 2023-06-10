@@ -5,82 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../src/style2.css">
     <style>
      
     </style>
 </head>
-<body class="container-fluid">
-    <div class="cont">
-        <div class="leftbar">
-            <span class="bi bi-truck dilevry"> FREE SHIPPING WORLDWIDE</span>
-            <span>
-                <select>
-                    <option>United State</option>
-                    <option>Canada</option>
-                    <option>Germany</option>
-                </select>
-                <select>
-                    
-                    <option>USD</option>
-                    <option>EUR</option>
-                </select>
-                <select>
-                    <option>English</option>
-                    <option>French</option>
-                </select>
-           </span>
-        </div>
-        <div class="rightbar">
-            <div class="faq">
-                <span>Shipping</span>
-                <span>FAQ</span>
-                <span>Contact</span>
+<body>
+    <div class="navbar navbar-expand-lg bg-secondary text-light">
+        <div class="container-fluid">
+            <div class="me-5 ">
+                <span class="bi bi-truck dilevry me-2"></span>
+                <span class="heading-xxs">FREE SHIPPING WORLDWIDE</span>
             </div>
-            <div class="logo">
-                <span class="bi bi-facebook"></span>
-                <span class="bi bi-instagram"></span>
-                <span class="bi bi-twitter"></span>
-                <span class="bi bi-whatsapp"></span>
+            <button class="navbar-toggler"data-bs-target="#menu"data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse"id="menu">
+                <div class="navbar-nav me-auto">
+                    <span class="nav-item"><a href="#"class="nav-link">FAQ</a></span>
+                    <span class="nav-item"><a href="#"class="nav-link">Contact</a></span>
+                    <span class="nav-item"><a href="#"class="nav-link">Shipping</a></span>
+                </div>
+                <div class="menulogo navbar-nav me-5 flex-row">
+                    <span class="nav-item">
+                        <a href="#"class="nav-link text-white">
+                            <span class="bi bi-instagram"></span>
+                        </a>
+                    </span>
+                    <span class="nav-item">
+                        <a href="#"class="nav-link text-white">
+                            <span class="bi bi-twitter"></span>
+                        </a>
+                    </span>
+                    <span class="nav-item">
+                        <a href="#"class="nav-link text-white">
+                            <span class="bi bi-whatsapp"></span>
+                        </a>
+                    </span>
+                    <span class="nav-item">
+                        <a href="#"class="nav-link text-white">
+                            <span class="bi bi-facebook"></span>
+                        </a>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
-    <header>
-        <div class="shoplogo">
-            Shopper.
-        </div>
-        <div class="menu">
-            <span>Home</span>
-            <span>Catalog</span>
-            <span>Shop</span>
-            <span>Page</span>
-            <span>Bog</span>
-            <span>Docs</span>
-        </div>
-        <div class="menulogo">
-            <span class="bi bi-search"></span>
-            <span class="bi bi-person"></span>
-            <span class="bi bi-heart"></span>
-            <span class="bi bi-cart"></span>
+
+    <header class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="shoplogo">Shopper  </div>
+            <button class="navbar-toggler"data-bs-toggle="collapse"data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+            <div class="navbar-collapse collapse"id='nav'>
+                <div class="navbar-nav me-auto">
+                    <li class="nav-item"><a href="#"class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#"class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#"class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#"class="nav-link">Shop</a></li>
+                    <li class="nav-item"><a href="#"class="nav-link">Page</a></li>
+                    <li class="nav-item"><a href="#"class="nav-link">Docs</a></li>
+                </div>
+                <div class="menulogo">
+                    <span class="bi bi-person-fill"></span>
+                    <span class="bi bi-pen-fill"></span>
+                    <span class="bi bi-heart-fill"></span>
+                    <span class="bi bi-cart-fill"></span>
+                </div>
+            </div>
         </div>
     </header>
     <main>
-        <span class="bi bi-lightning-fill text-warning"></span><marquee style=" width: 400px;">HAPPY HOLIDAY DEALS ON EVERYTHING </marquee><span class="bi bi-lightning-fill text-warning"></span>
+        <span class="bi bi-lightning-fill text-warning"></span><marquee>HAPPY HOLIDAY DEALS ON EVERYTHING </marquee><span class="bi bi-lightning-fill text-warning"></span>
     </main>
     <section>
         <div class="women">
             <div class="brand-tittle">Women</div>
-            <div><button>Shop Women <span class="bi bi-arrow-right"></span></button></div>
+            <div><button class="button">Shop Women <span class="bi bi-arrow-right"></span></button></div>
         </div>
         <div class="men">
                 <div class="brand-tittle">Men</div>
-            <div><button>Shop Men<span class="bi bi-arrow-right"></span></button></div>
+            <div><button class="button">Shop Men<span class="bi bi-arrow-right"></span></button></div>
         </div>
         <div class="kids">
             <div class="brand-tittle">Kids</div>
-            <div><button>Shop Kids <span class="bi bi-arrow-right"></span></button></div>
+            <div><button class="button">Shop Kids <span class="bi bi-arrow-right"></span></button></div>
         </div>
     </section>
     <div class="section">
@@ -274,12 +284,15 @@
         <div  class="footer">
             <div style="text-align: center;">
             <h3 style="color:white; margin-bottom: 50px;">Want style Ideas and Treats?</h1>
-            <input type="Email"placeholder=" Enter Email *" size="40">
-            <input type="Submit" value="Subscribe" class="submit">
+            <div class="search-box">
+                <input type="Email" class="email"placeholder=" Enter Email *">
+                <input type="Submit" value="Subscribe" class="submit">
+            </div>
             </div>
             <div class="adress">
+              <div class="data">
                 <div>
-                    <h4 style="color:white; margin-bottom: 50px;">Shopper .</h4>
+                    <h4 style="color:white; margin-bottom: 20px;">Shopper .</h4>
                     <div class="logo">
                         <span class="bi bi-facebook"></span>
                         <span class="bi bi-twitter"></span>
@@ -288,43 +301,47 @@
                         <span class="bi bi-whatsapp"></span>
                     </div>
                 </div>
-                <div>
-                    <h5>SUPPORT</h5>
-                    <div class="address-data">
-                      Contact Us<br>
-                      FAQs<br>
-                      Size Guide<br>
-                      Shipping & Returns
+    
+                    <div>
+                        <h5>SUPPORT</h5>
+                        <div class="address-data">
+                          Contact Us<br>
+                          FAQs<br>
+                          Size Guide<br>
+                          Shipping & Returns
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <h5>SHOP</h5>
-                    <div class="address-data">
-                        Men's Shopping<br>
-                        Women's Shopping<br>
-                        Kids' Shopping<br>
-                        Discounts
+                    <div>
+                        <h5>SHOP</h5>
+                        <div class="address-data">
+                            Men's Shopping<br>
+                            Women's Shopping<br>
+                            Kids' Shopping<br>
+                            Discounts
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <h5>COMPANY</h5>
-                    <div class="address-data">
-                        Our Story<br>
-                        Careers<br>
-                        Terms & Conditions<br>
-                        Privacy & Cookie policy<br>
+                    <div>
+                        <h5>COMPANY</h5>
+                        <div class="address-data">
+                            Our Story<br>
+                            Careers<br>
+                            Terms & Conditions<br>
+                            Privacy & Cookie policy<br>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <h5>CONTACT</h5>
-                    <div class="address-data">
-                        1-202-555-0105<br>
-                        1-202-555-0106<br>
-                        help@shopper.com
+                    <div>
+                        <h5>CONTACT</h5>
+                        <div class="address-data">
+                            1-202-555-0105<br>
+                            1-202-555-0106<br>
+                            help@shopper.com
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
